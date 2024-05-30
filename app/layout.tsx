@@ -7,6 +7,9 @@ const opensans = Open_Sans({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Waffles Coin',
   description: 'a delicious crypto token',
+  icons: {
+    icon: '/waffles.svg'
+  }
 }
 
 export default function RootLayout({
